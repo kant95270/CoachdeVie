@@ -88,17 +88,18 @@ header button{
 
 
 footer{
-    margin-top: 40px;
-    border-top: 5px solid #666;
+   
+   
     background-color: #000;
     color: #fff;
-    padding: 30px 100px;
+    
 }
 footer h1{
     font-family: 'Playfair Display' , sans-serif;
     border-bottom: 1px solid #fff;
-    width: 20%;
+    width: 10%;
     padding-bottom: 5px;
+    
 }
 footer .services{
     margin-top: -10px;
@@ -135,7 +136,7 @@ body {font-family: 'Montserrat' , sans-serif;
     width: 100%;}
   
   input[type=submit] {
-    background-color: #fff;
+    background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
