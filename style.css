@@ -34,7 +34,7 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background: url('images/relaxed-woman-enjoying-the-sea.jpg');
+    background: url('images/relaxed-woman-enjoying-the-sea.avif');
     background-size: cover;
     color:#666666;
     padding: 40px;
@@ -43,7 +43,7 @@ header h1{
     font-family: 'Playfair Display', sans-serif;
     font-size: 50px;
 }
-header h4{
+header h2{
    margin-top: -20px;
    font-size: 20px;
    text-align: center;
@@ -113,7 +113,7 @@ footer .services .service p{
     max-width: 300px;   
 }
 footer #contact{
-    color: #1255a2 ;
+    color: #FFFFFF ;
 }
 body {font-family: 'Montserrat' , sans-serif;
     padding: 0px;}
@@ -151,7 +151,7 @@ body {font-family: 'Montserrat' , sans-serif;
     /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius:5px;
-    color: #1255a2;
+    color: #FFFFFF;
     padding:20px;
     width: 100%;
     /* redéfinition 400 + 2*20 */
@@ -174,7 +174,7 @@ body {font-family: 'Montserrat' , sans-serif;
     .main .content .card .right img{
         height: 200px;
         width: 100%;
-        margin-top: 0px;
+        margin-top: 5px;
     }
     .main .content .card{
         display: block;
