@@ -183,3 +183,122 @@ body {font-family: 'Montserrat' , sans-serif;
         padding: 30px;
     }
 }
+section#appointment {
+    background-color: #f9f9fb;
+    padding: 80px 0;
+}
+section#appointment .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+    height: 540px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+section#appointment .container .formulaire {
+    width: 50%;
+    margin-right: 35px;
+}
+section#appointment .container .formulaire h3 {
+    font-size: 2em;
+    color: #2a2a2a;
+    margin-bottom: 50px;
+}
+
+section#appointment .container .formulaire-image  {
+    width: 40%;
+    background-color: #1fb3bf;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: flex-end;
+}
+section#appointment .container .formulaire-image img {
+    width: 100%;
+}
+section#appointment .container .formulaire form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section#appointment .container .formulaire input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+}
+section#appointment .container .formulaire input:hover {
+    border-bottom: 2px solid #1fb3bf;
+}
+
+section#appointment .container .formulaire input.nom-famille, 
+section#appointment .container .formulaire input.email {
+    width: 42%;
+}
+
+section#appointment .container .formulaire input.numero-tel, 
+section#appointment .container .formulaire input.date{
+    width: 42%;
+}
+section#appointment .container .formulaire input.horaire {
+    width: 100%;
+}
+
+section#appointment .container .formulaire button.submit-btn {
+    width: 192px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1fb3bf;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    section#appointment .container .formulaire-image {
+        display: none;
+    }  
+    section#appointment .container {
+        justify-content: center;
+    }
+    section#appointment .container .formulaire {
+        margin-right: 0px;
+        width: 80%;
+    }
+    section#appointment .container .formulaire h3 {
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section#appointment .container .formulaire {
+        margin-right: 0px;
+        width:95%;
+    }
+
+    section#appointment .container .formulaire input.nom-famille, 
+    section#appointment .container .formulaire input.email,
+    section#appointment .container .formulaire input.numero-tel, 
+    section#appointment .container .formulaire input.date,
+    section#appointment .container .formulaire input.horaire { 
+        width: 100%;
+}
+section#appointment .container {
+    padding: 30px 10px;
+    
+}
+
+}
